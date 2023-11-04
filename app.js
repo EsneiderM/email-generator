@@ -8,7 +8,7 @@ export const app = (e) => {
     let path = window.location.pathname.split(".")[0];
     console.log(path);
     console.log(window.location.pathname.split("."));
-    if (path === "email-generator/index") {
+    if (path === "/email-generator/index" || path === "/email-generator/") {
         document.title = "Generador Correos";
 
         if ($("#aleatory_email").checked) {
